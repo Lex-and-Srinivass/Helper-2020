@@ -22,6 +22,9 @@ html {
 .pad{
   margin-left: 30px;
 }
+.pad1{
+  margin: 10px;
+}
 .pink{
   color: #FA5752;
 }
@@ -75,4 +78,41 @@ footer{
 
 .jumbopad{
   padding-top: 153px;
+}
+.goalcard{
+  padding: 10px 10px 10px 10px;
+  border-radius: 50px;
+}
+.card-body{
+  background-color: #FDEAEA;
+  border-radius: 50px;
+}
+.goalcard:hover{
+  background-color:#FA5752;
+}
+.card-body:hover{
+  background-color:#f8c9c9;
+} 
+.section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.headings{
+  color:  #FA5752;
+}
+
+#goal{
+  padding-top: 100px;
+}
+.text{
+  color: #035755;
+  font-size: 20px;
+}
+
+
+.btn-special{
+  align-content: center;
+  background-color: #FA5752;
+  border: #FA5752;
+  border-radius: 10px;
 }
