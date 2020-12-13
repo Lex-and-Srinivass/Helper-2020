@@ -76,3 +76,58 @@ footer{
 .jumbopad{
   padding-top: 153px;
 }
+
+.healthcare_head{
+  padding-top: 170px;
+
+}
+
+.healthcare_text{
+  padding-top: 150px;
+}
+
+.second-health-pad{
+padding-top: 100px;
+}
+
+.medical_product {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: left;
+
+}
+
+.meditems_main{
+  width: 100%; 
+  float: left;
+  background-color: #ffffff;
+  height: auto;
+  padding: 60px 0px;
+
+}
+
+.footup{
+  padding-bottom: 40px;
+}
+
+.article-pad{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.check-article-down-pad{
+  padding-bottom: 70px;
+}
+
+.btn-special{
+  align-content: center;
+  background-color: #FA5752;
+  border: #FA5752;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .healthcare_head{
+    padding-top: 30px;
+  }
+}
