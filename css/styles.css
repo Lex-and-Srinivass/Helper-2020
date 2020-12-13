@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+  }
+.head{
+   padding-right: 600px;
+}  
+.green{
+  color: #035755;;
+}
+.diaplay-4{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav-link{
+  font-size: large;
+  color: #035755;
+  
+}
+.elle{
+  margin-top: -40px;
+}
+.pad{
+  margin-left: 30px;
+}
+.pink{
+  color: #FA5752;
+}
+.rounded-pill{
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 5px;
+}
+.navbar-text{
+  padding: 10px;
+  font-size: large;
+  color: #035755;
+  
+}
+.nav{
+  background-color: white;
+}
+.mat{
+  padding-right: 0px;
+  margin-right: 0px;
+}
+  
+.jumbotron{
+    margin-bottom: 30px;
+    padding: 70px 10px 10px 10px;
+   background-color: white;
+    color: #035755;
+}
+.navbar-toggler {
+      border-color:  #FA5752;
+
+      background-color:  #FA5752;
+
+} 
+
+
+.image{
+  margin-top: -90px;
+}
+.alert{
+  padding-top: 100px;
+}
+
+footer{
+    
+    color: floralwhite;
+    padding: 20px 0px 20px 0px;
+    background-color: #FA5752;
+
+}
+
+.jumbopad{
+  padding-top: 153px;
+}
