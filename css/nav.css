@@ -10,16 +10,15 @@ nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  
-  background: #242526;
+  background: white
 }
 nav .wrapper{
   position: relative;
-  max-width: 1300px;
-  padding: 0px 30px;
+  max-width: 100%;
+  padding: 0px 3px;
   height: 70px;
   line-height: 70px;
-  margin: 50px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -35,6 +34,10 @@ nav .wrapper{
 }
 .nav-links li{
   list-style: none;
+}
+.nav-links .sp{
+  text-decoration: underline;
+  color:#FA5752;
 }
 .nav-links li a{
   color: #035755;
@@ -57,7 +60,7 @@ nav .wrapper{
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #242526;
+  background:white;
   width: 180px;
   line-height: 45px;
   top: 85px;
@@ -128,7 +131,7 @@ nav .wrapper{
   color: #f2f2f2;
 }
 .wrapper .btn{
-  color: #fff;
+  color: #035755;
   font-size: 20px;
   cursor: pointer;
   display: none;
@@ -137,9 +140,13 @@ nav .wrapper{
   position: absolute;
   right: 30px;
   top: 10px;
+  
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1200px) {
+  nav .wrapper{
+    padding: 0px 30px;
+  }
   .wrapper .btn{
     display: block;
   }
@@ -150,7 +157,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background: white;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -206,7 +213,7 @@ nav .wrapper{
   }
   .nav-links .mobile-item{
     display: block;
-    color: #f2f2f2;
+    color: #035755;
     font-size: 20px;
     font-weight: 500;
     padding-left: 20px;
@@ -215,7 +222,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3A3B3C;
+    background: #f7b8b6;
   }
   .drop-menu li{
     margin: 0;
