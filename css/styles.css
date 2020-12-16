@@ -161,9 +161,12 @@ padding-bottom: 30px;
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 1080px) {
+
+@media only screen and (max-width:770px) {
   .healthcare_head{
     padding-top: 30px;
   }
 
+
 }
+
