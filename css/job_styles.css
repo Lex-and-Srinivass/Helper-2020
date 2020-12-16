@@ -6,7 +6,9 @@
 .searchicon {
   color: #5cb85c;
 }
-
+nav .wrapper{
+  margin-top: 50px;
+}
 .items-collection {
   margin: 20px 0 0 0;
 }
@@ -111,6 +113,12 @@
   border-radius: 4px;
   padding: 3px;
   -webkit-user-select: none;
+}
+
+@media only screen and (max-width:770px) {
+ .news{
+   width: 400px;
+ }
 }
 
 .news span {
