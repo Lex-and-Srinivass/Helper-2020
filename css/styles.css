@@ -171,3 +171,11 @@ color: white;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
+.design{
+  color: black;
+}
+.design:hover{
+  text-decoration: none;
+  color: #ff4f4f; ;
+}
