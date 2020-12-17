@@ -24,6 +24,10 @@ nav .wrapper{
   color: blue;
   box-shadow: 3px 3px 3px #007ba7;
 }
+#kk:checked ~ .items-collection label.btn-default.active{
+  background-color: #007ba7;
+  color: white;
+}
 .items-collection label .itemcontent {
     width: 100%;
 }

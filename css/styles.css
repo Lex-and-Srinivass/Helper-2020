@@ -159,3 +159,23 @@ color: white;
   transition: all 0.5s ease-in-out;
 }
 
+.btn-style-1:hover {
+  color: #fff;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.design{
+  color: black;
+}
+.design:hover{
+  text-decoration: none;
+  color: #ff4f4f; ;
+}
