@@ -22,11 +22,11 @@
       media="screen,projection"
     />
     <link
-    rel="stylesheet"
-    href="css/nav.css"
-    type="text/css"
-    media="screen,projection"
-  />
+      rel="stylesheet"
+      href="css/nav.css"
+      type="text/css"
+      media="screen,projection"
+    />
     <link
       rel="stylesheet"
       href="css/job_styles.css"
@@ -43,17 +43,21 @@
   <body>
     <nav>
       <div class="wrapper">
-        <div class="logo"><a href="#">
-          <img src="images/people_connect_logo.png" height="80" width="80" />
-          Helper-2020</a>
+        <div class="logo">
+          <a href="#">
+            <img src="images/people_connect_logo.png" height="80" width="80" />
+            Helper-2020</a
+          >
         </div>
-        <input type="radio" name="slider" id="menu-btn">
-        <input type="radio" name="slider" id="close-btn">
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
         <ul class="nav-links">
-          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-          <li ><a href="/index.html">Overview</a></li>
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="/index.html">Overview</a></li>
           <li><a href="#">Education</a></li>
-      <!----    <li>
+          <!----    <li>
             <a href="#" class="desktop-item">Dropdown Menu</a>
             <input type="checkbox" id="showDrop">
             <label for="showDrop" class="mobile-item">Dropdown Menu</label>
@@ -65,22 +69,26 @@
             </ul>
           </li> -->
           <li><a href="/heathcare.html">Healthcare</a></li>
-          <li><a href="#"  class="active1">Find Jobs</a></li>
+          <li><a href="#" class="active1">Find Jobs</a></li>
           <li><a href="/about.html">About Us</a></li>
           <li><a href="#about">Contact</a></li>
           <li><a href="/login.html" class="sp">Login</a></li>
           <li><a href="/signup.html" class="sp">Sign Up</a></li>
         </ul>
-        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
       </div>
     </nav>
-  
+
     <!--......................................................................................................................-->
 
     <section>
       <div class="container">
         <div class="row marginii healthcare_head elle">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 healthcare_text fadeIn">
+          <div
+            class="col-xl-6 col-lg-6 col-md-6 col-sm-12 healthcare_text fadeIn"
+          >
             <h1 class="green text-center">Find the best jobs for you</h1>
             <p class="text-center">
               The #1 job site to find remote, work from home, and flexible job
@@ -104,163 +112,81 @@
       <h2 class="green">Select the field your intrested in</h2>
       <p>Filter</p>
       <div class="row items-collection form-group">
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group bizmoduleselect">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                   
-                  />
-                  <span class="fa fa-lock fa-2x"></span>
-                  <h5>Accounting & Legal</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+       
+        <div class="col-md-2 text-center">
+          <label class="select" for="Accounting"
+            ><span class="fa fa-lock fa-2x"></span><br />Accounting</label
+          >
+
+          <input type="checkbox" id="Accounting" class="visually-hidden" />
+
+          <div class="control-me1 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-lock fa-2x"></span>
-                  <h5>Accounting & Legal</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Buisness"
+            ><span class="fa fa-id-card fa-2x"></span><br />Buisness</label
+          >
+
+          <input type="checkbox" id="Buisness" class="visually-hidden" />
+
+          <div class="control-me2 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-building fa-2x"></span>
-                  <h5>Construction</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Construction"
+            ><span class="fa fa-building fa-2x"></span><br />Construction</label
+          >
+
+          <input type="checkbox" id="Construction" class="visually-hidden" />
+
+          <div class="control-me3 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-tv fa-2x"></span>
-                  <h5>IT</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="IT"
+            ><span class="fa fa-tv fa-2x"></span><br />IT</label
+          >
+
+          <input type="checkbox" id="IT" class="visually-hidden" />
+
+          <div class="control-me4 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-medkit fa-2x"></span>
-                  <h5>Health Care</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Health"
+            ><span class="fa fa-medkit fa-2x"></span><br />Health Care</label
+          >
+
+          <input type="checkbox" id="Health" class="visually-hidden" />
+
+          <div class="control-me5 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-cutlery fa-2x"></span>
-                  <h5>Food</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Food"
+            ><span class="fa fa-cutlery fa-2x"></span><br />Food</label
+          >
+
+          <input type="checkbox" id="Food" class="visually-hidden" />
+
+          <div class="control-me6 text-center"></div>
         </div>
-        <div class="items col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default" >
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-video-camera fa-2x"></span>
-                  <h5>Media</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Media"
+            ><span class="fa fa-video-camera fa-2x"></span><br />Media</label
+          >
+
+          <input type="checkbox" id="Media" class="visually-hidden" />
+
+          <div class="control-me7 text-center"></div>
         </div>
-        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-          <div class="info-block block-info clearfix">
-            <div data-toggle="buttons" class="btn-group itemcontent">
-              <label class="btn btn-default">
-                <div class="itemcontent">
-                  <input
-                    class="check"
-                    type="checkbox"
-                    name="var_id[]"
-                    autocomplete="off"
-                    value=""
-                  />
-                  <span class="fa fa-wrench fa-2x"></span>
-                  <h5>Manufacturing</h5>
-                </div>
-              </label>
-            </div>
-          </div>
+        <div class="col-md-2 text-center">
+          <label class="select" for="Manu"
+            ><span class="fa fa-wrench fa-2x"></span><br />Manufacturing</label
+          >
+
+          <input type="checkbox" id="Manu" class="visually-hidden" />
+
+          <div class="control-me8 text-center"></div>
         </div>
       </div>
-<div class="row fields">
-
-</div>
+      <div class="row fields"></div>
       <div class="row pa">
         <i class="fa fa-search fa-2x float-xs-left searchicon"></i>
         <input
@@ -313,7 +239,7 @@
         <!--Google Maps-->
       </div>
 
-      <div class="row-content align-items-center ">
+      <div class="row-content align-items-center">
         <p>Salary Estimate</p>
         <div class="row">
           <div class="col-12 col-md-2">
@@ -342,33 +268,75 @@
           </div>
           <div class="col-md-2 pa1"><p>Experience Level (Years)</p></div>
           <div class="form-check form-check-inline pad">
-            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
             <label class="form-check-label" for="inlineRadio1">0</label>
-          </div>  
-          <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">1</label>
-            </div>
-            <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">2</label>
-            </div>
-            <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">3</label>
-            </div>
-            <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">4</label>
-            </div>
-            <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-              <label class="form-check-label" for="inlineRadio2">5</label>
-            </div>
-            <div class="form-check form-check-inline ">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-              <label class="form-check-label" for="inlineRadio1">5+</label>
-            </div>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label class="form-check-label" for="inlineRadio2">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label class="form-check-label" for="inlineRadio2">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label class="form-check-label" for="inlineRadio2">5</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="inlineRadioOptions"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label class="form-check-label" for="inlineRadio1">5+</label>
+          </div>
         </div>
         <div class="form-group text-center">
           <button type="submit" class="btn btn-style-1 btn-lg">
@@ -376,8 +344,6 @@
           </button>
         </div>
 
-      
-     
         <div class="row">
           <div class="text-center col pa">
             <h6>Best Match</h6>
@@ -388,7 +354,7 @@
             <div class="card-body card-body1">
               <h5 class="card-title">Web Developer</h5>
               <p class="card-text">
-                Company: Persistent <br>
+                Company: Persistent <br />
                 Location: Verna
               </p>
             </div>
@@ -397,7 +363,7 @@
             <div class="card-body card-body1">
               <h5 class="card-title">Software Developer</h5>
               <p class="card-text">
-                Company: TCS <br>
+                Company: TCS <br />
                 Location: Panjim
               </p>
             </div>
@@ -407,7 +373,7 @@
             <div class="card-body card-body1">
               <h5 class="card-title">Media Manager</h5>
               <p class="card-text">
-                Company: Prudent <br>
+                Company: Prudent <br />
                 Location: Panjim
               </p>
             </div>
@@ -417,7 +383,7 @@
             <div class="card-body card-body1">
               <h5 class="card-title">Data Scientist</h5>
               <p class="card-text">
-                Company: Persistent <br>
+                Company: Persistent <br />
                 Location: Verna
               </p>
             </div>
@@ -443,27 +409,37 @@
             products. He/she will also need to be willing to learn and
             passionate about making contributions towards the team’s success.
           </p>
-          This may be your dream job if you:<br>
-          Have a strong core understanding of software engineering best practices
+          This may be your dream job if you:<br />
+          Have a strong core understanding of software engineering best
+          practices
           <ul>
-           
-<li>Possess fantastic problem solving, debugging and troubleshooting skills</li>
-<li> an ability to prioritize and handle multiple tasks competently</li>
-<li> Have strong interpersonal and communication skills</li>
-<li> Yearn to learn new technology stacks and accept that learning is forever</li>
-  <li> Pay close attention to the little details that help make our products that much better</li>
-    <li> Enjoy working in a fun and highly collaborative environment</li>
+            <li>
+              Possess fantastic problem solving, debugging and troubleshooting
+              skills
+            </li>
+            <li>
+              an ability to prioritize and handle multiple tasks competently
+            </li>
+            <li>Have strong interpersonal and communication skills</li>
+            <li>
+              Yearn to learn new technology stacks and accept that learning is
+              forever
+            </li>
+            <li>
+              Pay close attention to the little details that help make our
+              products that much better
+            </li>
+            <li>Enjoy working in a fun and highly collaborative environment</li>
           </ul>
-Technology Stack:
-<ul>
-<li> Docker for containerization</li>
-<li> Kubernetes for container orchestration.</li>
-
+          Technology Stack:
+          <ul>
+            <li>Docker for containerization</li>
+            <li>Kubernetes for container orchestration.</li>
           </ul>
         </div>
         <div class="col-md-12 form-group text-center align-items-center">
           <button type="submit" class="btn btn-style-1 btn-lg">
-           Apply Now
+            Apply Now
           </button>
         </div>
       </div>
@@ -486,10 +462,7 @@ Technology Stack:
               <li><a href="#">Developer Discovers Mobile Internet...</a></li>
               <li><a href="#">Bluetooth: The Silent Killer?...</a></li>
             </ul>
-        </div>
-        
-        
-        
+          </div>
         </div>
       </div>
     </div>

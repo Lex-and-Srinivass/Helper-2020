@@ -1,4 +1,4 @@
-
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 #search {
   width: 90%;
 }
@@ -163,4 +163,80 @@ nav .wrapper{
 }
 .news span:hover + ul {
   animation-play-state: paused;
+}
+
+.control-me1::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Accounting:checked ~ .control-me1::after {
+  content: "✔️";
+}
+
+.control-me2::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Buisness:checked ~ .control-me2::after {
+  content: "✔️";
+}
+.control-me3::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Construction:checked ~ .control-me3::after {
+  content: "✔️";
+}
+.control-me4::after {
+  content: "❌";
+  font-size: 30px;
+}
+#IT:checked ~ .control-me4::after {
+  content: "✔️";
+}
+.control-me5::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Health:checked ~ .control-me5::after {
+  content: "✔️";
+}
+.control-me6::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Food:checked ~ .control-me6::after {
+  content: "✔️";
+}
+.control-me7::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Media:checked ~ .control-me7::after {
+  content: "✔️";
+}
+.control-me8::after {
+  content: "❌";
+  font-size: 30px;
+}
+#Manu:checked ~ .control-me8::after {
+  content: "✔️";
+}
+.select {
+  border: 1px solid #305891;
+  margin: 5px;
+  border-radius: 17px;
+  color: blue;
+  box-shadow: 3px 3px 3px #007ba7;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  
+}
+.select:hover{
+  background-color:#7cd2f1 ;
+}
+.visually-hidden {
+  position: absolute;
+  left: -100vw;
 }
