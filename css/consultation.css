@@ -80,6 +80,7 @@ ul.lead-list li {
 ul.lead-list li span.fa {
 	margin: 5px 5px 0 0;
 	float: left;
+	
 }
 
 ul.lead-list li span.list {
@@ -218,7 +219,7 @@ form.lead label,form.lead input {
     padding-top: 150px;
 	display:block;
     position:relative;
-    z-index:120;
+    z-index:0;
 	background-color: #fff;
 }
 .paddingtop-40{
@@ -389,7 +390,9 @@ h1.h-bold,h2.h-bold,h3.h-bold ,h4.h-bold ,h5.h-bold ,h6.h-bold  {
     margin-top: 15px;
 	line-height: 1.6em;
 }
-
+.pad-t{
+	margin-top: 40px;
+}
 
 
 
