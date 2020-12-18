@@ -31,6 +31,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+    rel="stylesheet"
+    href="css/nav.css"
+    type="text/css"
+    media="screen,projection"
+  />
     <title>Consultation</title>
   </head>
 
@@ -48,71 +54,40 @@
       </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg header bg-light fixed-top">
-      <div>
-        <a class="navbar-brand" href="#"
-          ><img src="images/people_connect_logo.png" height="80" width="80" />
-        </a>
-      </div>
-      <div>
-        <h4 class="green">HELPER 2020</h4>
-      </div>
-
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon">
-          <i class="fa fa-navicon" style="color: #fff; font-size: 28px"></i>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item pad">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#healthcare">Healthcare</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#jobs">Find Jobs</a>
-          </li>
-          <li class="nav-item active">
-            <center>
-              <a class="nav-link pink" href="#"
-                >About Us <span class="sr-only">(current)</span></a
-              >
-              <img class="elle" src="images/Ellipse.png" />
-            </center>
-          </li>
+    <nav class="pad-t">
+      <div class="wrapper">
+        <div class="logo"><a href="#">
+          <img src="images/people_connect_logo.png" height="80" width="80" />
+          Helper-2020</a>
+        </div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li ><a href="/index.html">Overview</a></li>
+          <li><a href="#">Education</a></li>
+      <!----    <li>
+            <a href="#" class="desktop-item">Dropdown Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="/heathcare.html">Healthcare</a></li>
+          <li><a href="#"  class="active1">Find Jobs</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="#about">Contact</a></li>
+          <li><a href="/login.html" class="sp">Login</a></li>
+          <li><a href="/signup.html" class="sp">Sign Up</a></li>
         </ul>
-        <span class="navbar-text rounded-pill">
-          <a id="signupModal" class="pink">
-            <span class="fa fa-vcard-o pink"></span> Sign Up</a
-          >
-        </span>
-        <span class="navbar-text rounded-pill">
-          <a id="loginModal" class="pink">
-            <span class="fa fa-sign-in pink"></span> Login</a
-          >
-        </span>
-        <span class="navbar-text rounded-pill">
-          <a id="loginModal" class="pink">
-            <span class="fa fa-sign-in pink"></span> Contact us</a
-          >
-        </span>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
       </div>
     </nav>
-
+  
     <!--......................................................................................................................-->
 
     <section id="intro" class="intro">
@@ -134,9 +109,9 @@
                 <div class="wow fadeInRight">
                   <ul class="lead-list">
                     <li>
-                      <span class="fa fa-check fa-2x icon-success"></span>
-                      <span class="list"
-                        ><strong>Affordable Free/Premium packages</strong
+                      <span class="fas fa-check fa-2x icon-success"></span>
+                      <span class="list">
+                        <strong>Affordable Free/Premium packages</strong
                         ><br />Free consultation (Limited options
                         avalible)</span
                       >
@@ -393,106 +368,7 @@
     </section>
 
 
-    <section id="doctor" class="home-section bg-gray paddingbot-60">
-      <div class="container marginbot-50">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="wow fadeInDown" data-wow-delay="0.1s">
-            <div class="section-heading text-center">
-            <h2 class="h-bold">Doctors</h2>
-            <p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
-            </div>
-            </div>
-            <div class="divider-short"></div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-          
-              <div id="filters-container" class="cbp-l-filters-alignLeft">
-                  <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All (<div class="cbp-filter-counter"></div>)</div>
-                  <div data-filter=".cardiologist" class="cbp-filter-item">Cardiologist (<div class="cbp-filter-counter"></div>)</div>
-                  <div data-filter=".psychiatrist" class="cbp-filter-item">Psychiatrist (<div class="cbp-filter-counter"></div>)</div>
-                  <div data-filter=".neurologist" class="cbp-filter-item">Neurologist (<div class="cbp-filter-counter"></div>)</div>
-              </div>
-      
-              <div id="grid-container" class="cbp-l-grid-team">
-                  <ul>
-                      <li class="cbp-item psychiatrist">
-                          <a href="doctors/member1.html" class="cbp-caption cbp-singlePage">
-                              <div class="cbp-caption-defaultWrap">
-                                  <img src="img/team/1.jpg" alt="" width="100%">
-                              </div>
-                              <div class="cbp-caption-activeWrap">
-                                  <div class="cbp-l-caption-alignCenter">
-                                      <div class="cbp-l-caption-body">
-                                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </a>
-                          <a href="doctors/member1.html" class="cbp-singlePage cbp-l-grid-team-name">Alice Grue</a>
-                          <div class="cbp-l-grid-team-position">Psychiatrist</div>
-                      </li>
-                      <li class="cbp-item cardiologist">
-                          <a href="doctors/member2.html" class="cbp-caption cbp-singlePage">
-                              <div class="cbp-caption-defaultWrap">
-                                  <img src="img/team/2.jpg" alt="" width="100%">
-                              </div>
-                              <div class="cbp-caption-activeWrap">
-                                  <div class="cbp-l-caption-alignCenter">
-                                      <div class="cbp-l-caption-body">
-                                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </a>
-                          <a href="doctors/member2.html" class="cbp-singlePage cbp-l-grid-team-name">Joseph Murphy</a>
-                          <div class="cbp-l-grid-team-position">Cardiologist</div>
-                      </li>
-                      <li class="cbp-item cardiologist">
-                          <a href="doctors/member3.html" class="cbp-caption cbp-singlePage">
-                              <div class="cbp-caption-defaultWrap">
-                                  <img src="img/team/3.jpg" alt="" width="100%">
-                              </div>
-                              <div class="cbp-caption-activeWrap">
-                                  <div class="cbp-l-caption-alignCenter">
-                                      <div class="cbp-l-caption-body">
-                                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </a>
-                          <a href="doctors/member3.html" class="cbp-singlePage cbp-l-grid-team-name">Alison Davis</a>
-                          <div class="cbp-l-grid-team-position">Cardiologist</div>
-                      </li>
-                      <li class="cbp-item neurologist">
-                          <a href="doctors/member4.html" class="cbp-caption cbp-singlePage">
-                              <div class="cbp-caption-defaultWrap">
-                                  <img src="img/team/4.jpg" alt="" width="100%">
-                              </div>
-                              <div class="cbp-caption-activeWrap">
-                                  <div class="cbp-l-caption-alignCenter">
-                                      <div class="cbp-l-caption-body">
-                                          <div class="cbp-l-caption-text">VIEW PROFILE</div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </a>
-                          <a href="doctors/member4.html" class="cbp-singlePage cbp-l-grid-team-name">Adam Taylor</a>
-                          <div class="cbp-l-grid-team-position">Neurologist</div>
-                      </li>
-  
-                  </ul>
-              </div>
-        </div>
-        </div>
-      </div>
-  
-    </section>
+    
     <!--......................................................................................................................-->
 
     <footer class="footer" id="about">
