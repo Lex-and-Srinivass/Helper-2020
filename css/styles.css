@@ -143,6 +143,12 @@ padding-bottom: 30px;
   .healthcare_head{
     padding-top: 30px;
   }
+  .img1{
+    width: 370px;
+  }
+  .mob{
+    font-size: 35px;
+  }
 }
 
 .footlnk{
