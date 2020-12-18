@@ -272,77 +272,63 @@
   color: #000;
 }
 
-
 .custom-img {
-    height: 350px;
-    width: 350px;
-   }
+  height: 350px;
+  width: 350px;
+}
 
-   
-.pad-top{
-    padding-top: 53px;
+.pad-top {
+  padding-top: 53px;
+}
+
+.pad-top-allproducts {
+  padding-top: 83px;
 }
 
 .tag {
-
-    position: absolute;
-    background: #e86b00;
-    color: #fff;
-    letter-spacing: .2em;
-    padding: 7px 20px;
-    font-size: .8rem;
-    font-weight: 900;
-    top: 0;
-    left: 0;
-    text-transform: uppercase;
-    z-index: 2;
-    -webkit-transform: rotate(-90deg) translateX(-100%) translateY(-70%);
-    -ms-transform: rotate(-90deg) translateX(-100%) translateY(-70%);
-    transform: rotate(-90deg) translateX(-100%) translateY(-70%); 
-
+  position: absolute;
+  background: #e86b00;
+  color: #fff;
+  letter-spacing: 0.2em;
+  padding: 7px 20px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  z-index: 2;
+  -webkit-transform: rotate(-90deg) translateX(-100%) translateY(-70%);
+  -ms-transform: rotate(-90deg) translateX(-100%) translateY(-70%);
+  transform: rotate(-90deg) translateX(-100%) translateY(-70%);
 }
 
-.site-block-27 ul, .site-block-27 ul li {
-    padding: 0;
-    margin: 0; }
-  
-  .site-block-27 ul li {
-    display: inline-block;
-    margin-bottom: 4px; }
-    .site-block-27 ul li a, .site-block-27 ul li span {
-      text-align: center;
-      display: inline-block;
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      border-radius: 50%;
-      border: 1px solid #eee;
-      color: #000; }
-    .site-block-27 ul li.active a, .site-block-27 ul li.active span {
-      background: #343a40;
-      color: #fff;
-      border: 1px solid transparent; }
-  
+.site-block-27 ul,
+.site-block-27 ul li {
+  padding: 0;
+  margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.site-block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.site-block-27 ul li a,
+.site-block-27 ul li span {
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  color: #000;
+}
+.site-block-27 ul li.active a,
+.site-block-27 ul li.active span {
+  background: #343a40;
+  color: #fff;
+  border: 1px solid transparent;
+}
 
 /* @media (max-width: 991.98px) {
     
@@ -356,6 +342,4 @@
   }
   @media (max-width: 991.98px) {
     
-  } */ 
-
-  
+  } */

@@ -1,43 +1,42 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
-body{
+body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/images/bg.jpg) ;
+  background: url(/images/bg.jpg);
   background-size: cover;
 }
-.login-box{
-  
+.login-box {
   position: absolute;
   top: 50%;
   left: 48%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
 }
-.sign-box{
+.sign-box {
   padding-top: 5%;
-  color: white;  
+  color: white;
 }
 @media only screen and (max-width: 1080px) {
-  .sign-box{
+  .sign-box {
     padding-top: 10px;
   }
 }
-.sign-box h1{
+.sign-box h1 {
   float: center;
   font-size: 40px;
   border-bottom: 6px solid #4caf50;
   margin-bottom: 50px;
   padding: 13px 0;
 }
-.login-box h1{
+.login-box h1 {
   float: center;
   font-size: 40px;
   border-bottom: 6px solid #4caf50;
   margin-bottom: 50px;
   padding: 13px 0;
 }
-.textbox{
+.textbox {
   width: 100%;
   overflow: hidden;
   font-size: 20px;
@@ -45,12 +44,12 @@ body{
   margin: 8px 0;
   border-bottom: 1px solid #4caf50;
 }
-.textbox i{
+.textbox i {
   width: 26px;
   float: left;
   text-align: center;
 }
-.textbox input{
+.textbox input {
   border: none;
   outline: none;
   background: none;
@@ -60,7 +59,7 @@ body{
   float: left;
   margin: 0 10px;
 }
-.btn{
+.btn {
   width: 100%;
   background: none;
   border: 2px solid #4caf50;
