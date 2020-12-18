@@ -10,9 +10,10 @@ html {
 .green{
   color: #035755;;
 }
-.diaplay-4{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+.display{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  
 }
 .elle{
   margin-top: -40px;
@@ -149,6 +150,10 @@ padding-bottom: 30px;
   .mob{
     font-size: 35px;
   }
+  .left{
+    text-align: right;
+  }
+ 
 }
 
 .footlnk{
@@ -184,4 +189,32 @@ color: white;
 .design:hover{
   text-decoration: none;
   color: #ff4f4f; ;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  animation-duration: 5s;
+  animation-name: fadeIn;
+}
+@keyframes slideIn {
+  
+  0%  { left:-200px; top:0px;}
+  25% {left: 50px; top:0px}
+}
+.slideIn{
+  animation-duration: 5s;
+  animation-name: slideIn;
+}
+@keyframes slideIn1 {
+  
+  0%  { left:700px; top:0px;}
+  25% {left: -50px; top:0px}
+}
+.slideIn1{
+  animation-duration: 10s;
+  animation-name: slideIn1;
 }
