@@ -283,6 +283,10 @@
     padding-top: 53px;
 }
 
+.pad-top-allproducts{
+  padding-top: 83px;
+}
+
 .tag {
 
     position: absolute;
@@ -325,25 +329,6 @@
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* @media (max-width: 991.98px) {
     
  }
@@ -357,5 +342,3 @@
   @media (max-width: 991.98px) {
     
   } */ 
-
-  
