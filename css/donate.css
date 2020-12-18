@@ -77,7 +77,6 @@
   padding-top: 73px;
 }
 
-
 #impact {
   padding-bottom: 20px;
   padding-top: 30px;
@@ -118,27 +117,26 @@
   transition: all 0.5s ease-in-out;
 }
 
-.don-mar{
+.don-mar {
   text-align: right;
   width: 740px;
   height: 590px;
   padding-left: 80px;
 }
 
-.media-pad{
+.media-pad {
   padding-top: 0px;
 }
 
-@media only screen and (max-width:770px) {
-  .don-mar{
+@media only screen and (max-width: 770px) {
+  .don-mar {
     text-align: center;
     padding-left: 0px;
     height: 426px;
     width: 539px;
   }
 
-  .media-pad{
+  .media-pad {
     padding-top: 73px;
   }
-
 }

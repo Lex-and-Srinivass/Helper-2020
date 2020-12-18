@@ -347,20 +347,9 @@ hr.botm-line {
 .paddingbot-60 {
   padding-bottom: 60px;
 }
-.pad-20{
-	padding-top: 20px;
+.pad-20 {
+  padding-top: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 979px) {
   .intro-content {
@@ -394,8 +383,8 @@ hr.botm-line {
   .paddingtop-60 {
     padding-top: 20px;
   }
-  .paddingbot-60{
-	  padding-bottom: 20px;
+  .paddingbot-60 {
+    padding-bottom: 20px;
   }
   .intro-content {
     padding: 150px 0 0;
@@ -406,8 +395,8 @@ hr.botm-line {
     height: auto;
     width: auto;
   }
-  .pad-20{
-	  padding-top: 20px;
+  .pad-20 {
+    padding-top: 20px;
   }
 }
 

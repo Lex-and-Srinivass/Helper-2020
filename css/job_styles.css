@@ -1,4 +1,3 @@
-
 #search {
   width: 90%;
 }
@@ -6,7 +5,7 @@
 .searchicon {
   color: #5cb85c;
 }
-nav .wrapper{
+nav .wrapper {
   margin-top: 50px;
 }
 .items-collection {
@@ -24,49 +23,44 @@ nav .wrapper{
   color: blue;
   box-shadow: 3px 3px 3px #007ba7;
 }
-#kk:checked ~ .items-collection label.btn-default.active{
+#kk:checked ~ .items-collection label.btn-default.active {
   background-color: #007ba7;
   color: white;
 }
 .items-collection label .itemcontent {
-    width: 100%;
+  width: 100%;
 }
 .items-collection .btn-group {
   width: 90%;
 }
 
-.pa{
-    margin: 20px;
+.pa {
+  margin: 20px;
 }
-.pa1{
+.pa1 {
   margin-top: 10px;
 }
-.check{
-    display: none;
+.check {
+  display: none;
 }
 
-.map-container{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-    
-    }
-    .map-container iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-    }
-.card-body1{
-
-        background-color: #FDEAEA;
-        border-radius: 5px;
-      
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-
-
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.card-body1 {
+  background-color: #fdeaea;
+  border-radius: 5px;
+}
 
 @keyframes ticker {
   0% {
@@ -99,7 +93,6 @@ nav .wrapper{
   100% {
     margin-top: -50px;
   }
-
 }
 
 .news ul li {
@@ -119,10 +112,10 @@ nav .wrapper{
   -webkit-user-select: none;
 }
 
-@media only screen and (max-width:770px) {
- .news{
-   width: 400px;
- }
+@media only screen and (max-width: 770px) {
+  .news {
+    width: 400px;
+  }
 }
 
 .news span {
