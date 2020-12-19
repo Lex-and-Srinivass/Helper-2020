@@ -1,18 +1,14 @@
 .top-area {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+ 
   width: 100%;
   color: #fff;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: blueviolet;
+  background-color: #fa5752;
 }
 
 .top-area.top-padding {
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+ 
   padding-top: 6px;
   padding-bottom: 0;
   margin-bottom: 10px;
@@ -60,7 +56,6 @@ h6.h-ultra {
 
 .well.well-trans {
   background-color: rgba(255, 255, 255, 0.8);
-  -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
 }
@@ -146,19 +141,12 @@ form.lead input {
 .form-control:focus {
   border-color: #66afe9;
   outline: 0;
-  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .btn-skin {
   color: white;
   background-color: #5bc0de;
-}
-
-.btn-skin:hover {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
 }
 
 .btn-skin:hover,
@@ -229,11 +217,6 @@ form.lead input {
   background-color: red;
 }
 
-.btn-Emergency:hover {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
 
 .btn-Emergency:hover,
 .btn-Emergency:focus,
@@ -308,14 +291,6 @@ h6.h-bold {
   padding: 60px 0px;
 }
 
-hr.botm-line {
-  height: 3px;
-  width: 60px;
-  background: #ffb737;
-  position: relative;
-  border: 0;
-  margin: 20px 0 20px 0;
-}
 
 .thumbnail {
   border-radius: 0px;
