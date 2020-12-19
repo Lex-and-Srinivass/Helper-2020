@@ -207,8 +207,13 @@
   box-shadow: none;
 }
 .btn.btn-primary:hover {
-  background: transparent;
-  color: #51eaea;
+  background:white;
+  color: red;
+}
+.btn-primary{
+  background: #fa5752;
+  color: white;
+  border: #fa5752;
 }
 .btn.btn-black {
   background: #000;
@@ -279,6 +284,10 @@
 
 .pad-top {
   padding-top: 53px;
+}
+
+.pad-top-filter {
+  padding-top: 25px;
 }
 
 .pad-top-allproducts {
