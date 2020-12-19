@@ -10,14 +10,15 @@
     />
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="/images/people_connect_logo.png" />
+
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="/images/people_connect_logo.png" />
-
     <link
       rel="stylesheet"
       href="css/styles.css"
@@ -32,15 +33,19 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="css/nav.css"
       type="text/css"
       media="screen,projection"
     />
-    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> <title>About Us</title>
   </head>
 
   <body>
@@ -71,7 +76,20 @@
               <li><a href="#">Drop menu 4</a></li>
             </ul>
           </li> -->
-          <li><a href="/heathcare.html">Healthcare</a></li>
+          <li>
+            <a href="#" class="desktop-item ">Health Care</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item ">Health Care</label>
+            <ul class="drop-menu">
+              <li><a href="/consultation.html">Search Doctors</a></li>
+              <li><a href="/pharmacy.html">Online Pharmacy</a></li>
+              <li><a href="/consultation.html">Consultation</a></li>
+              <li><a href="/Pathome.html">Detailed Info</a></li>
+              <li><a href="/Pathome.html">Tracking</a></li>
+              <li><a href="/consultation.html">Emergency Care</a></li>
+  
+            </ul>
+          </li>
           <li><a href="/find_jobs.html">Find Jobs</a></li>
           <li><a href="#" class="active1">About Us</a></li>
           <li><a href="#about">Contact</a></li>
@@ -101,14 +119,14 @@
 
     <div class="container">
       <div class="row">
-        <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <center>
             <div class="about_box fadeIn">
               <figure><img src="images/people_connect_logo.png" /></figure>
             </div>
           </center>
-        </dir>
-        <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12 slideIn1">
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 slideIn1">
           <div class="about_box pad-top-media">
             <h3>What is Helper 2020</h3>
             <p>
@@ -124,7 +142,7 @@
               effectively.
             </p>
           </div>
-        </dir>
+        </div>
       </div>
     </div>
 
@@ -183,130 +201,124 @@
           <center>
             <div class="gal-pad">
               <h2>Gallery</h2>
-              <span style="color: black">About our Services And Achievements In the year 2020</span>
+              <span>About our Services And Achievements In the year 2020</span>
               <hr style="color: black" />
             </div>
           </center>
         </div>
       </div>
 
-      <div class="row gallery">
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Online Doctor Consultation (Healthcare Service)"
-          >
-            <center>
-              <img
-                class="img-responsive"
-                src="images/Online-Consult.jpg"
-                alt="pic 1"
-                height="280px"
-                width="280px"
-              />
-            </center>
-          </div>
+      
+      <div id="recent-events">
+        <div class="container">
+            <div class="row pad-low ">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="images/Online-Consult.jpg" height="200" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                                <a class="preview" href="images/Online-Consult.jpg"><i class="fa fa-eye" style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" src="images/jobs1.jpg"  height="200" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                                <a class="preview" href="images/jobs1.jpg" ><i class="fa fa-eye "style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive"  height="200" src="images/online-edu.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                                
+                                <a class="preview" href="images/online-edu.jpg" ><i class="fa fa-eye" style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" height="200" src="images/preg.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                                
+                                <a class="preview" href="images/preg.png"><i class="fa fa-eye"style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive"  height="200" src="images/online-edu2.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                               
+                                <a class="preview" href="images/online-edu2.jpg" ><i class="fa fa-eye"style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive"  height="200" src="images/covid warriors.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                            
+                                <a class="preview" href="images/covid warriors.jpg"><i class="fa fa-eye"style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive"  height="200" src="images/pharmacy.jpg" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                                
+                                <a class="preview" href="images/pharmacy.jpg" ><i class="fa fa-eye"style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12  ">
+                    <div class="recent-events-wrap">
+                        <img class="img-responsive" height="200" src="images/labs.png" alt="">
+                        <div class="overlay">
+                            <div class="recent-events-inner">
+                                <h3><a href="#">Consecte Adipis </a></h3>
+                              
+                                <a class="preview" href="images/labs.png" ><i class="fa fa-eye"style="color:white"></i>View Event held 27 Jun 2014</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
         </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Finding The best Suitable Job Online"
-          >
-            <img
-              class="img-responsive"
-              src="images/jobs1.jpg"
-              alt="pic 2"
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Free Online Education For Everyone"
-          >
-            <img
-              class="img-responsive"
-              src="images/online-edu.jpg"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Regular Tracking Of your health"
-          >
-            <img
-              class="img-responsive"
-              src="images/preg.png"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Online Education for Children"
-          >
-            <img
-              class="img-responsive"
-              src="images/online-edu2.jpg"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Providing funds and support to covid warriors"
-          >
-            <img
-              class="img-responsive"
-              src="images/covid warriors.jpg"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Online Pharmacy with free Home Delivery"
-          >
-            <img
-              class="img-responsive"
-              src="images/pharmacy.jpg"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div
-            class="gallery-item textOverImage"
-            data-text="Finest Testing Labs "
-          >
-            <img
-              class="img-responsive"
-              src="images/labs.png"
-              alt=""
-              height="280px"
-              width="280px"
-            />
-          </div>
-        </div>
-      </div>
     </div>
+    </div>
+
     <div class="last" id="last">
       <div class="last-widgets">
         <div class="container">
@@ -319,7 +331,7 @@
               >
                 <h6 class="widget-tiltle">Fresh Tweets</h6>
                 <div class="media">
-                  <i class="fa fa-twitter"></i>
+                  <i class="fa fa-twitter"></i></a>
                   <div class="media-body ml-3">
                     <h6>
                       <a href="#">@Lex03,</a> I recommend Helper-2020 For the
