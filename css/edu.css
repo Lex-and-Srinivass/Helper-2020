@@ -1,0 +1,96 @@
+.greet {
+  background-color: rgb(201, 203, 224);
+  border-radius: 20px;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+.lex {
+  margin-top: 48px;
+}
+.welcm {
+  color: rgb(139, 131, 131);
+}
+.course {
+  background-color: rgb(201, 203, 224);
+  height: auto;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.graphy {
+  margin: 20px;
+}
+
+.stats {
+  margin: 40px;
+  margin-left: 0px;
+}
+
+nav {
+  margin-top: -110px;
+}
+
+.details {
+  background-color: rgb(201, 203, 224);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+/*----------------------------------------------------------------------------*/
+
+.icon-bar {
+  position: fixed;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 45px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.home {
+  background: #dd4b39;
+  color: white;
+}
+
+.edu {
+  background: #dd4b39;
+  color: white;
+}
+
+.user {
+  background: #dd4b39;
+  color: white;
+}
+
+.mail {
+  background: #dd4b39;
+  color: white;
+}
+
+.setting {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #dd4b39;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
