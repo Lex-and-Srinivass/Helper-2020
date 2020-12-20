@@ -321,4 +321,17 @@
   color: #fff;
   border: 1px solid transparent;
 }
+.btn-custom{
+  background: #fa5752;
+  color: white;
+  border: #fa5752;
+  
+}
+.btn.btn-custom:hover {
+  background:#3fff98;
+  color: white;
+}
+.searchandfilter{
+  padding-top: 30px;
+}
 

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="images/people_connect_logo.png"
+      type="image/x-icon"
+    />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="/images/people_connect_logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="css/styles.css"
+      type="text/css"
+      media="screen,projection"
+    />
+    <link
+      rel="stylesheet"
+      href="css/nav.css"
+      type="text/css"
+      media="screen,projection"
+    />
+    <link
+      rel="stylesheet"
+      href="css/form.css"
+      type="text/css"
+      media="screen,projection"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Helper 2020</title>
+  </head>
+  <body>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a href="#">
+            <img src="images/people_connect_logo.png" height="80" width="80" />
+            Helper-2020</a
+          >
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="#" class="active1">Overview</a></li>
+          <li><a href="#">Education</a></li>
+          <!----    <li>
+            <a href="#" class="desktop-item">Dropdown Menu</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+            <ul class="drop-menu">
+              <li><a href="#">Drop menu 1</a></li>
+              <li><a href="#">Drop menu 2</a></li>
+              <li><a href="#">Drop menu 3</a></li>
+              <li><a href="#">Drop menu 4</a></li>
+            </ul>
+          </li> -->
+          <li>
+            <a href="/heathcare.html" class="desktop-item">Health Care</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Health Care</label>
+            <ul class="drop-menu">
+              <li><a href="/consultation.html">Search Doctors</a></li>
+              <li><a href="/pharmacy.html">Online Pharmacy</a></li>
+              <li><a href="/consultation.html">Consultation</a></li>
+              <li><a href="/Pathome.html">Detailed Info</a></li>
+              <li><a href="/Pathome.html">Tracking</a></li>
+              <li><a href="/consultation.html">Emergency Care</a></li>
+            </ul>
+          </li>
+          <li><a href="/find_jobs.html">Find Jobs</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="#about">Contact</a></li>
+          <li><a href="/login.html" class="sp">Login</a></li>
+          <li><a href="/signup.html" class="sp">Sign Up</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+    <!--......................................................................................................................-->
+<form class="container ">
+    <div class="form-row pad-top">
+      <div class="col">
+          <label for="firstname">First Name:</label>
+          <span class="asteriskField">
+            *
+           </span>
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+        <label for="Lastname">Last Name:</label>
+        <span class="asteriskField">
+            *
+           </span>
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <span class="asteriskField">
+            *
+           </span>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <span class="asteriskField">
+            *
+           </span>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="Passport size Photograph">Passport size Photograph</label>
+        <span class="asteriskField">
+            *
+           </span>
+        <input type="file" class="form-control-file" id="Passport size Photograph">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Address</label>
+        <span class="asteriskField">
+            *
+           </span>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, Flat, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <span class="asteriskField">
+            *
+           </span>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">State</label>
+          <span class="asteriskField">
+            *
+           </span>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Goa</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+            <option>Kerala</option>
+            <option>Tamil nadu</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+      <div class="row">
+          <div class="form-group col-md-4">
+        <label for="inputState">Marital Status</label>
+        <span class="asteriskField">
+            *
+           </span>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Married</option>
+            <option>Single</option>
+          </select>
+        </div>
+          <div class="form-group col-md-2">
+            <label for="inputCity">Height</label>
+            <span class="asteriskField">
+                *
+               </span>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputCity">Weight</label>
+            <span class="asteriskField">
+                *
+               </span>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Gender</label>
+            <span class="asteriskField">
+                *
+               </span>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Trans</option>
+              </select>
+            </div>
+      </div>
+      <div class="form-group row">
+        <label class="control-label col-md-1 requiredField" for="date">
+         Date Of Birth
+         <span class="asteriskField">
+          *
+         </span>
+        </label>
+        <div class="col-md-3">
+            <div class="input-group-addon align-self-center">
+
+                <i class="fa fa-calendar margin-3">
+                </i>
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+               </div>
+               
+        </div>
+        <div class="col-md-4">
+            <label for="Father's Name">Father's Name</label>
+            <span class="asteriskField">
+                *
+               </span>
+            <input type="text" class="form-control" placeholder="Father's name">
+        
+          </div>
+          <div class="col-md-4">
+            <label for="mother's Name">Mother's Name</label>
+            <span class="asteriskField">
+                *
+               </span>
+            <input type="text" class="form-control" placeholder="Mothers">
+          </div>
+       </div>
+       <h3>Heath Insurance Details:</h3>
+       <div class="form-group row">
+        <label class="control-label col-md-1 requiredField" for="date">
+         Date of Expiry:
+         <span class="asteriskField">
+          *
+         </span>
+        </label>
+        <div class="col-md-3">
+            <div class="input-group-addon align-self-center">
+
+                <i class="fa fa-calendar margin-3">
+                </i>
+                <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+               </div>
+               
+        </div>
+        <div class="col-md-4">
+            <label for="Father's Name">SSN ID</label>
+            <span class="asteriskField">
+                *
+               </span>
+            <input type="text" class="form-control" placeholder="SSN ID">
+        
+          </div>
+          <div class="col-md-4">
+            <label for="mothers Name">PCP Name</label>
+            <input type="text" class="form-control" placeholder="PCP Name">
+          </div>
+       </div>
+
+       </div>
+       <div class="form-group">
+        <label for="exampleFormControlTextarea1">Allergies:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Vaccines Taken:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Current Medication:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Addictions:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <h3>Pathology Tests conducted:</h3>
+      <div class="form-group row">
+       <label class="control-label col-md-1 requiredField align-self-center" for="date">
+        Date
+        <span class="asteriskField">
+         *
+        </span>
+       </label>
+       <div class="col-md-3">
+        
+         <div class="input-group-addon align-self-center">
+
+          <i class="fa fa-calendar margin-3">
+          </i>
+          <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+         </div>
+         
+         
+
+        
+       </div>
+       <div class="col-md-4">
+           <label for="Father's Name">Type of test</label>
+           <span class="asteriskField">
+            *
+           </span>
+           <input type="text" class="form-control" placeholder="test">
+       
+         </div>
+         <div class="col-md-4">
+           <label for="mothers Name">Result attained</label>
+           <span class="asteriskField">
+            *
+           </span>
+           <input type="text" class="form-control" placeholder="Result">
+         </div>
+      </div>
+      
+      
+      <h3>Diagnosis:</h3>
+      <div class="form-group row">
+       <label class="control-label col-md-1 requiredField" for="date">
+        Date 
+        <span class="asteriskField">
+         *
+        </span>
+       </label>
+       <div class="col-md-3">
+        <div class="input-group-addon align-self-center">
+
+            <i class="fa fa-calendar margin-3">
+            </i>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text"/>
+           </div>
+           
+       </div>
+       <div class="col-md-8">
+           <label for="Father's Name">Disease</label>
+           <span class="asteriskField">
+            *
+           </span>
+           <input type="text" class="form-control" placeholder="Disease">
+       
+         </div>
+      </div>
+      
+      
+
+      <div class="form-group pad-20">
+        <div class="form-check">
+            <center>
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          
+          <label class="form-check-label" for="gridCheck">
+            Update my info
+          </label>
+    </center>
+        </div>
+        <div class="row">
+            <div class="col-md-12 pad-20">
+            <center>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </center>
+    </div>
+        </div>
+      </div>
+      
+  </form>
+  </body>
+  </html>
