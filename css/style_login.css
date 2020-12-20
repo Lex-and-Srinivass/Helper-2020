@@ -86,3 +86,6 @@ body {
 .pass-color{
   color: black;
 }
+.btn-primary:hover{
+  background-color: rgb(54, 54, 252);
+}

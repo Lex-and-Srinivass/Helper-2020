@@ -129,3 +129,9 @@ mt-20{
     font-size: 14px;
     line-height: 22px;
   }
+  .pre:hover{
+    text-decoration:rgb(92, 91, 91);
+  }
+  .image{
+    margin-right: 19px;
+  }

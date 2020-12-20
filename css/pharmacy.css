@@ -193,8 +193,8 @@
   box-shadow: none;
 }
 .btn.btn-primary:hover {
-  background:white;
-  color: red;
+  
+  color:white;
 }
 .btn-primary{
   background: #fa5752;
