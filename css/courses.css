@@ -429,8 +429,10 @@
   .main_image_res{
     height: 250px;
     width: 350px;
-    padding-top: 40px;
+    padding-top: 90px;
     align-content: center;
+    text-align: center;
+    content:url(/images/data\ structures.jpeg);
   }
 }
 @media only screen and (max-width: 576px) {
